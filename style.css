@@ -1,6 +1,6 @@
 body {
     /* Color de fondo */
-    background: linear-gradient(to bottom right, rgb(236, 236, 245), pink); 
+    background: linear-gradient(to bottom right, rgb(236, 236, 245), rgba(122, 212, 224, 0.247)); 
 
 /* Fuentes y configuraciones de fuentes */
 font-family: "Open Sans", sans-serif;
@@ -10,4 +10,18 @@ font-style: normal;
 font-variation-settings:
     "wdth" 100;
 
+}
+#nav{
+    background-color: black !important;/*importante agregar lo de important*/
+}
+
+#presentacion{
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Investigar las propiedades de nav background */
+#descripcion-1{
+    text-align: justify;
 }
