@@ -1,8 +1,9 @@
 body {
     /* Color de fondo */
     background: linear-gradient(to bottom right, rgb(236, 236, 245), rgba(122, 212, 224, 0.247)); 
-
-/* Fuentes y configuraciones de fuentes */
+    /* background: linear-gradient(to right, #b9cfd4, #7197c5); */
+    
+    /* Fuentes y configuraciones de fuentes */
 font-family: "Open Sans", sans-serif;
 font-optical-sizing: auto;
 font-weight: 400;
@@ -11,12 +12,28 @@ font-variation-settings:
     "wdth" 100;
 
 }
+
+p{
+    text-align: justify;
+}
+
 #nav{
     background-color: black !important;/*importante agregar lo de important*/
 }
 
+#imagen-presentacion{
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 50%;
+}
+
+#imagen-presentacion:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 50%;
+}
+
 #presentacion{
-    height: 89vh;
+    height: 80vh; /*tenia 89*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,3 +42,31 @@ font-variation-settings:
 #descripcion-1{
     text-align: justify;
 }
+
+
+
+#iconHabilidades:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+.text-shadow-1 {
+    text-shadow: -1px 1rem 0rem rgba(0, 0, 0, .25);
+}
+
+#icon-proyect{
+    color: rgb(241, 242, 240);
+}
+.proyecto {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#proyecto-1 {
+    background-image: url('src-img/img-proyectos/NoInvGluc-.PNG');
+}
+#proyecto-2 {
+    background-image: url('src-img/img-proyectos/clongoogle.png');
+}
+#Clongoogle-h3
+{color: rgba(49, 49, 51, 0.805)!important;}
