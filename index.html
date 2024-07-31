@@ -96,31 +96,34 @@
 
     <!-- Aqui inicia la presentación de mi portafolio -->
     <!-- <section id="presentacion" class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center"> EXPLICA LA FORMA DE COLOCAR CON BOOTSTRAP EL ESTILO -->
-    <section id="presentacion" class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img id="imagen-presentacion" src="src-img\pwo-.png" class="d-block mx-lg-auto img-fluid"
-            alt="Bootstrap Themes" width="700" height="500" loading="lazy" _mstalt="287586">
-        </div>
-        <div class="col-lg-6">
-          <!--dentro del col-lg-6 agrego un espacio y un shadow o un border etc diversas propiedades de estilo -->
-          <h1 id="nombre-vaniaflores" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Vania Flores</h1>
-          <p id="descripcion-1" class="lead">Ingeniera en sistemas computacionales y Técnico en programación.<br>Con
-            participación en desarrollo de prototipos de desarrollo tecnológico aplicados al área de salud. Actualmente
-            cursando un diplomado de desarrollo Tecnológico en Salud y Bienestar impartido por TecNM y Bootcamp de
-            desarrollo web impartido por Tecnolochicas.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
-            <button id="emailbotonvaniacontacto" type="button" class="btn btn-outline-secondary btn-lg px-4">vaniayanine21@gmail.com</button>
+    <section id="presentacion" class="container-fluid"> <!--el container fluid -->
+  <div
+  class="container col-xxl-8 px-4 py-5"> <!--container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center-->
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img id="imagen-presentacion" src="src-img\pwo-.png" class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes" width="700" height="500" loading="lazy" _mstalt="287586">
+      </div>
+      <div class="col-lg-6">
+        <!--dentro del col-lg-6 agrego un espacio y un shadow o un border etc diversas propiedades de estilo, abajo en la clase estaba : text-body-emphasis -->
+        <h1 id="nombre-vaniaflores" class="display-5 fw-bold  lh-1 mb-3 text-shadow-1 text-white">Vania Flores</h1>
+        <p id="descripcion-1" class="lead text-white">Ingeniera en sistemas computacionales y Técnico en programación.<br>Con
+          participación en desarrollo de prototipos de desarrollo tecnológico aplicados al área de salud. Actualmente
+          cursando un diplomado de desarrollo Tecnológico en Salud y Bienestar impartido por TecNM y Bootcamp de
+          desarrollo web impartido por Tecnolochicas.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+          <button id="emailbotonvaniacontacto" type="button" class="btn btn-outline-info btn-lg text-white px-4">vaniayanine21@gmail.com</button>
 
-            <script>
-              document.getElementById('emailbotonvaniacontacto').addEventListener('click', function () {
-                window.open('https://mail.google.com/mail/?view=cm&fs=1&to=vaniayanine21@gmail.com', '_blank');
-              });
-            </script>
-          </div>
+          <script>
+            document.getElementById('emailbotonvaniacontacto').addEventListener('click', function () {
+              window.open('https://mail.google.com/mail/?view=cm&fs=1&to=vaniayanine21@gmail.com', '_blank');
+            });
+          </script>
         </div>
       </div>
+    </div>
+  </div>
     </section>
 
 
@@ -130,7 +133,7 @@
     <!-- Aqui inicia la seccion de mis habilidades -->
     <section id="habilidades" class="container px-4 py-5">
       <h2 class="pb-2 border-bottom">Habilidades</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="row g-4 py-5  row-cols-1 row-cols-lg-3">
         <div class="feature col">
           <div id="iconHabilidades"
             class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 px-3 py-2 rounded m-2">
@@ -138,12 +141,12 @@
           </div>
           <h3 class="fs-2 text-body-emphasis">Bases de datos</h3>
           <p>Conocimiento en la normalización y arquitectura de bases de datos, así como en el uso del Lenguaje de Consulta Estructurada (SQL). Manejo de sistemas de gestión de bases de datos (SGBD) como MariaDB, MySQL y SQL Server, lo que me permite el diseño, la gestión de consultas y la resolución de problemas complejos en entornos SQL.</p>
-          <a href="#" class="icon-link">
+          <!-- <a href="#" class="icon-link">
             Call to action
             <svg class="bi">
               <use xlink:href="#chevron-right"></use>
             </svg>
-          </a>
+          </a> -->
         </div>
 
         <div class="feature col">
@@ -155,12 +158,12 @@
           <p>Desarrollo prototipos innovadores para el área de salud y bienestar, especialmente en enfermedades crónicas degenerativas, con el objetivo de mejorar la calidad de vida de los pacientes mediante soluciones tecnológicas efectivas.
             Estos prototipos están diseñados para apoyar la gestión y tratamiento de estas enfermedades, aportando mejoras en el monitoreo, la intervención y la asistencia personalizada. 
           </p>
-          <a href="#" class="icon-link">
+          <!-- <a href="#" class="icon-link">
             Call to action
             <svg class="bi">
               <use xlink:href="#chevron-right"></use>
             </svg>
-          </a>
+          </a> -->
         </div>
 
         <div class="feature col">
@@ -170,12 +173,12 @@
           </div>
           <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
           <p>Poseo experiencia en desarrollo web con HTML, CSS y JavaScript, y en la implementación de tecnologías como Bootstrap. Así mismo manejo servicios de hosting como Hostinger, HostGator y Vercel, lo que me permite diseñar, desarrollar y desplegar sitios web efectivos.</p>
-            <a href="#" class="icon-link">
+            <!-- <a href="#" class="icon-link">
               Call to action
               <svg class="bi">
                 <use xlink:href="#chevron-right"></use>
               </svg>
-            </a>
+            </a> -->
         </div>
 
 
@@ -186,12 +189,12 @@
           </div>
           <h3 class="fs-2 text-body-emphasis">Manejo de Sniffers</h3>
           <p>Tengo experiencia en el conocimiento y uso de sniffers como wireshark, herramientas esenciales para capturar y analizar el tráfico de datos en redes. Esta habilidad me permite monitorear y diagnosticar problemas de red, detectar anomalías y asegurar la integridad y seguridad de la información transmitida.</p>
-            <a href="#" class="icon-link">
+            <!-- <a href="#" class="icon-link">
               Call to action
               <svg class="bi">
                 <use xlink:href="#chevron-right"></use>
               </svg>
-            </a>
+            </a> -->
         </div>
 
 
@@ -203,12 +206,12 @@
           </div>
           <h3 class="fs-2 text-body-emphasis">Mantenimiento preventivo y correctivo</h3>
           <p>Poseo experiencia en el mantenimiento correctivo y preventivo de equipos de cómputo. Lo cual incluye fallos y problemas técnicos, así como la implementación de procedimientos para prevenir futuros inconvenientes. Asegurando el funcionamiento óptimo y la prolongación de la vida útil de los equipos.</p>
-            <a href="#" class="icon-link">
+            <!-- <a href="#" class="icon-link">
               Call to action
               <svg class="bi">
                 <use xlink:href="#chevron-right"></use>
               </svg>
-            </a>
+            </a> -->
         </div>
 
 
@@ -236,12 +239,12 @@
           </div>
           <h3 class="fs-2 text-body-emphasis">Resilencia</h3>
           <p>Mi habilidad en resiliencia me permite enfrentar y superar desafíos y adversidades con fortaleza y determinación. Mantengo una actitud positiva y adaptable, incluso en situaciones difíciles, lo que me ayuda a recuperarme rápidamente y aprender de los obstáculos.</p>
-          <a href="#" class="icon-link">
+          <!-- <a href="#" class="icon-link">
             Call to action
             <svg class="bi">
               <use xlink:href="#chevron-right"></use>
             </svg>
-          </a>
+          </a> -->
         </div>
 
       </div>
@@ -331,7 +334,8 @@
     <!-- en este caso hicimos el section a mano -->
     <section id="testimonios">
       <!-- no se cambió el id debido a que dentro del div se manda a llamar varias veces el id -->
-      <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+      <h2 class="container text-center">Testimonios</h2>
+      <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
             aria-label="Slide 1"></button>
@@ -340,9 +344,21 @@
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
             aria-current="true"></button>
         </div>
+
+<!-- Contenido del carousel -->
         <div class="carousel-inner">
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+
+          <div class="carousel-item active">
+
+            <!-- EL DIV DEL TIPO ARTICLE ES AL QUE SE LE VA A DAR EL DISEÑO, ESTILO Y FORMA -->
+            <article class="container py-5 text-center px-5"> <!--el px es pading en x para poner en redondo los bordes en bootstrap es redounded-5 -->
+              <img class="imagen-testimonios" src="src-img\user.svg" alt="" height="250">
+              <h3>Carlos Roman</h3>
+              <p>Trabajar con Vania Flores en el desarrollo de prototipos de innovación para el área de salud ha sido una experiencia excepcional. Su habilidad para combinar conocimientos en programación en Python, modelado 3D, diseño de tarjetas PCB y electrónica ha sido crucial para el éxito de nuestros proyectos.</p>
+            </article>
+
+            <!-- ESTO DE ABAJITO EN COMENTARIO NO SE USA -->
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
               aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
               <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
             </svg>
@@ -352,35 +368,33 @@
                 <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
                 <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
               </div>
-            </div>
+            </div> -->
           </div>
+          
+          <!-- item 2 testimonio 2 -->
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>
-            </div>
+            <article class="container py-5 text-center px-5"> <!--el px es pading en x para poner en redondo los bordes en bootstrap es redounded-5 -->
+              <img class="imagen-testimonios" src="src-img\user.svg" alt="" height="250">
+              <h3>Francisco Carbajal</h3>
+              <p>Trabajar y asesorar a Vania Flores en la realización de proyectos de programación en tarjetas de desarrollo ha sido una experiencia altamente gratificante. Desde el inicio de nuestra colaboración, Vania ha demostrado una notable habilidad para abordar problemas complejos y desarrollar soluciones innovadoras.</p>
+            </article>
           </div>
-          <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-            </svg>
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>
-            </div>
+
+          <!-- item 3 testimonio 3 -->
+          <div class="carousel-item">
+            <article class="container py-5 text-center px-5"> <!--el px es pading en x para poner en redondo los bordes en bootstrap es redounded-5 -->
+              <img class="imagen-testimonios" src="src-img\user.svg" alt="" height="250">
+              <h3>Cesar Augusto</h3>
+              <p>Como profesor, he tenido el privilegio de trabajar con Vania Y. Flores en actividades relacionadas con el lenguaje ensamblador, y debo decir que su desempeño ha sido ejemplar. Desde el primer día, Vania ha demostrado una profunda comprensión y un notable interés en el estudio de este lenguaje de bajo nivel, lo que ha sido evidente en cada uno de sus proyectos y tareas.</p>
+            </article>
           </div>
+
+
         </div>
+
+
+
+
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>

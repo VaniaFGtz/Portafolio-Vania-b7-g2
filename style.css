@@ -37,6 +37,13 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* Lo de abajito es para el fondo */
+    background-image: url("src-img/img-portada/fondopresentacion-.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9; 
 }
 /* Investigar las propiedades de nav background */
 #descripcion-1{
@@ -68,5 +75,14 @@ p{
 #proyecto-2 {
     background-image: url('src-img/img-proyectos/clongoogle.png');
 }
+
+#proyecto-3 {
+    background-image: url('src-img/img-proyectos/clongoogle.png');
+}
+
 #Clongoogle-h3
 {color: rgba(49, 49, 51, 0.805)!important;}
+
+.imagen-testimonios{
+    border-radius:50%;
+}
