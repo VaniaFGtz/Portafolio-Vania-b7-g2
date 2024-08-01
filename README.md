@@ -10,11 +10,11 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 
 ## Secciones de mi sitio
 
-![Presentación](https://github.com/VaniaFGtz/Portafolio-Vania-b7-g2/readme/presentacion.png)
-![Habilidades](https://github.com/VaniaFGtz/Portafolio-Vania-b7-g2/readme/habilidades.png)
-![Proyectos](https://github.com/VaniaFGtz/Portafolio-Vania-b7-g2/readme/proyectos.png)
-![Testimonios](https://github.com/VaniaFGtz/Portafolio-Vania-b7-g2/readme/testimonios.png)
-![Testimonios](https://github.com/VaniaFGtz/Portafolio-Vania-b7-g2/readme/footer.png)
+![Presentación](readme/presentacion.png)
+![Habilidades](readme/habilidades.png)
+![Proyectos](readme/proyectos.png)
+![Testimonios](readme/testimonios.png)
+![Testimonios](readme/footer.png)
 
 ## Tecnologías
 
